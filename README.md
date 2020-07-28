@@ -1039,7 +1039,7 @@ guidelines:
 2. Make sure there are tests! We will not accept any patch that is not tested.
    It's a rare time when explicit tests aren't needed. If you have questions
    about writing tests for paperclip, please open a
-   [GitHub issue](https://github.com/kreeti/paperclip/issues/new).
+   [GitHub issue](https://github.com/kreeti/kt-paperclip/issues/new).
 
 Please see [`CONTRIBUTING.md`](./CONTRIBUTING.md) for more details on contributing and running test.
 
