@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.platform          = Gem::Platform::RUBY
   s.author            = "Surendra Singhi"
   s.email             = ["ssinghi@kreeti.com"]
-  s.homepage          = "https://github.com/kreeti/paperclip"
+  s.homepage          = "https://github.com/kreeti/kt-paperclip"
   s.summary           = "File attachments as attributes for ActiveRecord"
   s.description       = "Easy upload management for ActiveRecord"
   s.license           = "MIT"
