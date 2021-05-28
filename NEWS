@@ -1,3 +1,7 @@
+Unreleased:
+
+* Replace `mimemagic` gem with `marcel` due to licensing issues. See https://github.com/kreeti/kt-paperclip/pull/54 for a list of known incompatibilities.
+
 6.1.0 (2018-07-27):
 
 * BUGFIX: Don't double-encode URLs (Roderick Monje).
