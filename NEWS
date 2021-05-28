@@ -1,6 +1,30 @@
-Unreleased:
+7.0.0 (2021-05-28)
+* Replace `mimemagic` gem with `marcel` due to licensing issues. See https://github.com/kreeti/kt-paperclip/pull/54 for details and limitations
 
-* Replace `mimemagic` gem with `marcel` due to licensing issues. See https://github.com/kreeti/kt-paperclip/pull/54 for a list of known incompatibilities.
+6.4.1 (2021-01-30)
+* Improvement: Use URI.open in ruby > 2.5 (PR #45)
+
+6.4.0 (2020-12-14)
+* Improvement: Fix Ruby 2.7 method & syntax deprecation warnings (#38)
+
+6.3.0 (2020-08-10)
+* Feature: Add validation_errors_to option - customize copying of errors (#26)
+* Stability: Dropped support for ruby 2.1
+
+6.2.2 (2020-02-18)
+* Bugfix: Add support for Aliases in S3 credentials YAML (accidentally removed during 6.2.0 upgrade).
+
+6.2.1 (2020-01-30)
+
+* Bugfix: Auto-loading of the gem code (necessitated due to change in gem name).
+
+6.2.0 (2020-01-23):
+
+* Bugfix: Don't do post-processing on invalid attachments (#16).
+* Improvement: Use AWS::S3 built in download_file method (#9).
+* Stability: Rubocop recommended syntax updates (#10, #11, #13, #14).
+* Stability: Testing - replace mocha and bourne with rspec mocks (#6).
+* Stability: Fix test suite to run with Rails 5 and Rails 6 (#19, #20, #7).
 
 6.1.0 (2018-07-27):
 
