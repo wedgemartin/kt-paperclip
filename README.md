@@ -1070,5 +1070,6 @@ Thank you to all [the contributors](https://github.com/kreeti/kt-paperclip/graph
 License
 -------
 
-Paperclip is Copyright &copy; 2008-2017 thoughtbot, inc. It is free software, and may be
-redistributed under the terms specified in the MIT-LICENSE file.
+Copyright &copy; 2020-2021 Kreeti Technologies Pvt. Ltd.
+Copyright &copy; 2008-2017 thoughtbot, inc.
+It is free software, and may be redistributed under the terms specified in the MIT-LICENSE file.
