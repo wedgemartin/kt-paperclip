@@ -137,6 +137,9 @@ module Paperclip
           @s3_headers = {}
           merge_s3_headers(@options[:s3_headers], @s3_headers, @s3_metadata)
 
+          @s3_acl_enabled = @options[:s3_acl_enabled]
+          @s3_acl_enabled = true if @s3_acl_enabled.nil?
+
           @s3_storage_class = set_storage_class(@options[:s3_storage_class])
 
           @s3_server_side_encryption = "AES256"
@@ -359,8 +362,11 @@ module Paperclip
             log("saving #{path(style)}")
             write_options = {
               content_type: file.content_type,
-              acl: s3_permissions(style)
             }
+
+            if @s3_acl_enabled
+              write_options[:acl] = s3_permissions(style)
+            end
 
             # add storage class for this style if defined
             storage_class = s3_storage_class(style)
