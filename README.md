@@ -592,9 +592,9 @@ Storage
 
 Paperclip ships with 3 storage adapters:
 
-* File Storage
-* S3 Storage (via `aws-sdk-s3`)
-* Fog Storage
+* File Storage (`storage: :filesystem`)
+* S3 Storage (via `aws-sdk-s3`) (`storage: :s3`)
+* Fog Storage (`storage: :fog`)
 
 If you would like to use Paperclip with another storage, you can install these
 gems along side with Paperclip:
